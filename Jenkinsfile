@@ -1,8 +1,14 @@
 pipeline{
   agent any
     stages{
-      stage(run){
+      stage(one){
         echo "hi"
+      }
+       stage(two){
+        echo "bye"
+      }
+       stage(three){
+        echo "why"
       }
     
     }  
